@@ -1,0 +1,35 @@
+/***** Myanmar Food****/
+.conatiner{
+    background-color: rgb(249, 227, 198);
+}
+.Title{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.myanmarfood-img{
+    width: 200px;
+    height: 200px;
+   
+}
+.card{
+    width: 250px;
+    height: 280px;
+    background-color: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px #000000,
+                inset 4px 4px 10px #fff;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 500px;
+    height: 280px;
+    background-color: azure;
+    border-radius: 15px;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
