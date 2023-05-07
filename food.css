@@ -1,0 +1,107 @@
+/***** Myanmar Food****/
+.conatiner{
+    background-color: beige;
+    
+}
+.mainHd{
+    background-color: #F9E2AF;
+}
+body{
+    background: #F9E2AF;
+}
+.first-img{
+    width: 45%;
+    height: 100%;
+}
+.jump-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 4px 2px lemonchiffon ;
+}
+.Title{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.myanmarfood-img{
+    width: 200px;
+    height: 200px;
+   
+}
+.card{
+    width: 250px;
+    height: 280px;
+    background-color: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px #000000,
+                inset 4px 4px 10px #fff;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 500px;
+    height: 280px;
+    background-color: azure;
+    border-radius: 15px;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+.modal-body{
+    background-color:  #f9eac4;
+    
+}
+.modal-header{
+    background-color:  #F9E2AF;
+}
+.modal-footer{
+    background-color:  #FFF3E2!important;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(223, 240, 127);
+    }
+
+}
+@media only screen and(max-width:768px){
+    /* For mobile */
+    [ class*='col-']{
+        width: 100%;
+        background-color: chartreuse;
+    }
+}
+@media only screen and (min-width:768){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+    
+    @media only screen and (min-width:600px){
+        /* For Tablet*/
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-3 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    
+    }
+       

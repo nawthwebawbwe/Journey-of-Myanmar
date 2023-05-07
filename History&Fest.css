@@ -1,0 +1,36 @@
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    background-color: #e0f7bf;
+}
+
+
+.title{
+    font-family: ;
+    font-weight: 100;
+}
+.card{
+    
+    background-color: rgb(10, 111, 33) !important;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 500px;
+    height: 450px;
+}
+.modal-header{
+    background-color: rgb(133, 216, 212);
+}
+.modal-body{
+    background-color: rgb(192, 248, 248);
+}
+.modal-footer{
+    background-color: rgb(179, 227, 243) !important;
+}
+/* responsive layout*/
+@media only screen and (min-width: 768px) and (max-widht: 991px){
+    
+}
+@media only screen and(max-width: 767px){
+
+}
