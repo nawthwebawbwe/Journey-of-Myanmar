@@ -8,8 +8,10 @@
     <!--CSS-->
     <link rel="stylesheet" href="food.css">
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/home/myanmar.ico" type="image/x-icon">
     <!--Font Awesome-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poltawski+Nowy&family=Roboto+Slab&family=Ubuntu&family=Wix+Madefor+Display:wght@400;500&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8053a6e196.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -17,36 +19,64 @@
     
 </head>
 <body>
-
+<!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top btn-warning ">
+		<img src="images/home/Jouerney_of_myanmar-removebg-preview.png" style="width: 55px; height: 55px; margin-left: 20px;" alt="Logo">
+		<div class="container mt-3">
+			<a class="navbar-brand" href="index.html">
+				Journey of <span class="text-success">Myanmar</span> </a> 
+			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="food.html">Food</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Famous Places.html">Famous places</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="indigenious.html">Nationality</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="History&Festival.html">Festival</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 <!--Header-->
+
 
     <div class="container-fluid mainHd py-4">
       <div class="row ">
         <div class="col-md-6">
-            <img class="jump-img" src="images/food/rice.jpg" alt="">
+            <img class="jump-img" src="images/food/rice.jpg" alt="History of Myanmar food">
         </div>
 
         <div class="col-md-6">
           <div class=" p-5 ">
-            <h2>Hisory of Myanmar Food</h2>
-            <p>Rice is the principal staple in Burmese cuisine, reflecting several millennia of rice cultivation, which first emerged in the country's Chindwin, Ayeyarwady, and Thanlwin river valleys between 11,000 and 5000 BCE.By 3000 BCE, irrigated rice cultivation flourished, paralleled by the domestication of cattle and pigs by inhabitants. In addition to rice, tea originated in the borderlands separating Myanmar from China, precipitating a longstanding tradition of tea consumption and the development of pickled tea known as laphet, which continues to play a pivotal role in Burmese ritual culture.</p>
+            <h2 class="card-title">Hisory of Myanmar Food</h2>
+            <p class="fontstyle mt-3">Rice is the principal staple in Burmese cuisine, reflecting several millennia of rice cultivation, which first emerged in the country's Chindwin, Ayeyarwady, and Thanlwin river valleys between 11,000 and 5000 BCE.By 3000 BCE, irrigated rice cultivation flourished, paralleled by the domestication of cattle and pigs by inhabitants. In addition to rice, tea originated in the borderlands separating Myanmar from China, precipitating a longstanding tradition of tea consumption and the development of pickled tea known as laphet, which continues to play a pivotal role in Burmese ritual culture.</p>
           </div>
         </div>
       </div>
     </div>
 
       <!--First row-->    
-     <div class="conatiner mt-2 mx-auto p-3">
-        <h1 class=" Title text-center">Myanmar Food</h1>
+     <div class="conatiner mx-auto p-3">
+        <h1 class=" Title text-center card-title">Myanmar Traditional Food</h1>
         <div class="row">
-                <div class="col-lg-3 col-md-3 col-12">
+                <div class="col-md-3">
                     <div class="card mt-5">
                         <img src="images/food/burmese tofu.jpeg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                         <div class="card-body text-center">
                           <h5 class="card-title">Burmese Tofu</h5>
                           <p class="card-text">
                             </p>
-                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BurmeseTofu">Check</a>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BurmeseTofu">View details</a>
                           <!-- The Modal -->
                             <div class="modal" id="BurmeseTofu">
                               <div class="modal-dialog">
@@ -54,7 +84,7 @@
 
                                   <!-- Modal Header -->
                                   <div class="modal-header">
-                                    <h4 class="modal-title"> Tofu</h4>
+                                    <h4 class="modal-title "> Tofu</h4>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                   </div>
 
@@ -75,13 +105,13 @@
                       </div>
                  </div>
 
-                 <div class="col-lg-3 col-md-3 col-12">
+                 <div class="col-md-3">
                     <div class="card mt-5">
                         <img src="images/food/Mohinga-Breakfast-Stew.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                         <div class="card-body text-center">
-                          <h5 class="card-title">Mohinga</h5>
+                          <h5 class="card-title ">Mohinga</h5>
                           <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Mohinga">Go somewhere</a>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Mohinga">View details</a>
                           
                           <!-- The Modal -->
                           <div class="modal" id="Mohinga">
@@ -113,26 +143,29 @@
                       </div>
                  </div>
 
-                 <div class="col-lg-3 col-md-3 col-12">
+                 <div class="col-md-3">
                   <div class="card mt-5">
                       <img src="images/food/Kyauk Nyin Kyi Tout Sticky rice roasted in bamboo Myanmar Traditional food.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                       <div class="card-body text-center">
-                        <h5 class="card-title">Bamboo Sticky Rice</h5>
+                        <h5 class="card-title ">Bamboo Sticky Rice</h5>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BambooStickyRice">Go somewhere</a>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BambooStickyRice">View details</a>
                         <div class="modal" id="BambooStickyRice">
                           <div class="modal-dialog">
                             <div class="modal-content">
 
                               <!-- Modal Header -->
                               <div class="modal-header">
-                                <h4 class="modal-title">Bamboo Sticky Rice</h4>
+                                <h4 class="modal-title fontstyle">Bamboo Sticky Rice</h4>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                               </div>
 
                               <!-- Modal body -->
                               <div class="modal-body">
-                                <p>The national dish of Myanmar and it contains the crunchy pith of the banana tree and fish. And we heaped crispy split pea fritters, sliced boiled eggs and brucy fishcake and a piece of lime or lemon wedges. This dish can be for breakfast.</p>
+                                <p>Bamboo-tube sticky rice which we called Kauk Nyin Kyidauk, is one of the favourite seasonal food among many traditional foods made with Myanmar rural products.
+                                  There are various types of bamboo in Myanmar, among them, “ Tin-wa” “ pencil tube bamboo” is used in making Bamboo-tube sticky rice.
+                                  
+                                  Old-age bamboo and newly fresh sticky rice are used to get an aromatic seasonal food called Bamboo-tube sticky rice.</p>
 
                               </div>
 
@@ -150,13 +183,13 @@
 
                  
 
-                 <div class="col-lg-3 col-md-3 col-12">
+                 <div class="col-md-3">
                     <div class="card mt-5">
                         <img src="images/food/Couple Snack.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                         <div class="card-body text-center">
                           <h5 class="card-title">Couple Snack</h5>
                           <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CoupleSnack">Go somewhere</a>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CoupleSnack">View details</a>
                           <div class="modal" id="CoupleSnack">
                             <div class="modal-dialog">
                               <div class="modal-content">
@@ -187,20 +220,20 @@
 
         <!--Second row-->
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-12">
+            <div class="col-md-3">
                 <div class="card mt-5">
                     <img src="images/food/nangyisalad.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                     <div class="card-body text-center">
-                      <h5 class="card-title">NanGyi Salad</h5>
+                      <h5 class="card-title ">NanGyi Salad</h5>
                       <p class="card-text"></p>
-                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#NanGyiSalad">Go somewhere</a>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#NanGyiSalad">View details</a>
                       <div class="modal" id="NanGyiSalad">
                         <div class="modal-dialog">
                           <div class="modal-content">
 
                             <!-- Modal Header -->
                             <div class="modal-header">
-                              <h4 class="modal-title">NanGyi Salad</h4>
+                              <h4 class="modal-title fontstyle">NanGyi Salad</h4>
                               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
@@ -221,20 +254,20 @@
                     </div>
                   </div>
              </div>
-             <div class="col-lg-3 col-md-3 col-12">
+             <div class="col-md-3">
                 <div class="card mt-5">
                     <img src="images/food/1000_F_122871544_tKCrnwxHxxLk1pDYTAKEAys7bofM64Cp.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                     <div class="card-body text-center">
-                      <h5 class="card-title">Myanmar Pancake</h5>
+                      <h5 class="card-title ">Myanmar Pancake</h5>
                       <p class="card-text"></p>
-                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MyanmarPancake">Go somewhere</a>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MyanmarPancake">View details</a>
                       <div class="modal" id="MyanmarPancake">
                         <div class="modal-dialog">
                           <div class="modal-content">
 
                             <!-- Modal Header -->
                             <div class="modal-header">
-                              <h4 class="modal-title">Myanmar Pancake</h4>
+                              <h4 class="modal-title ">Myanmar Pancake</h4>
                               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
@@ -255,20 +288,20 @@
                   </div>
              </div>
 
-             <div class="col-lg-3 col-md-3 col-12">
+             <div class="col-md-3">
                 <div class="card mt-5">
                     <img src="images/food/meeshay.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                     <div class="card-body text-center">
-                      <h5 class="card-title">Meeshay</h5>
+                      <h5 class="card-title ">Meeshay</h5>
                       <p class="card-text"></p>
-                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Meeshay">Go somewhere</a>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Meeshay">View details</a>
                       <div class="modal" id="Meeshay">
                         <div class="modal-dialog">
                           <div class="modal-content">
 
                             <!-- Modal Header -->
                             <div class="modal-header">
-                              <h4 class="modal-title">Meeshay</h4>
+                              <h4 class="modal-title ">Meeshay</h4>
                               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
@@ -290,20 +323,20 @@
                   </div>
              </div>
 
-             <div class="col-lg-3 col-md-3 col-12">
+             <div class="col-md-3">
                 <div class="card mt-5">
                     <img src="images/food/Coconut-Noodles-articleLarge.jpg"class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
                     <div class="card-body text-center">
-                      <h5 class="card-title">Coconut noodle</h5>
+                      <h5 class="card-title ">Coconut noodle</h5>
                       <p class="card-text"></p>
-                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Coconutnoodle">Go somewhere</a>
+                      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Coconutnoodle">View details</a>
                       <div class="modal" id="Coconutnoodle">
                         <div class="modal-dialog">
                           <div class="modal-content">
 
                             <!-- Modal Header -->
                             <div class="modal-header">
-                              <h4 class="modal-title">Coconut noodle</h4>
+                              <h4 class="modal-title ">Coconut noodle</h4>
                               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
@@ -328,13 +361,13 @@
 
     <!--Third row-->
     <div class="row">
-      <div class="col-lg-3 col-md-3 col-12">
+      <div class="col-md-3">
           <div class="card mt-5">
               <img src="images/food/1-10-myanmar-food-every-visitors-need-to-try.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
               <div class="card-body text-center">
-                <h5 class="card-title">Tea-leaf Salad</h5>
+                <h5 class="card-title ">Tea-leaf Salad</h5>
                 <p class="card-text"></p>
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Tea-leafSalad">Go somewhere</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Tea-leafSalad">View details</a>
 
               <!-- The Modal -->
               <div class="modal" id="Tea-leafSalad">
@@ -343,7 +376,7 @@
 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                      <h4 class="modal-title">Tea-leaf Salad</h4>
+                      <h4 class="modal-title ">Tea-leaf Salad</h4>
                       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -365,20 +398,20 @@
               </div>
             </div>
        </div>
-       <div class="col-lg-3 col-md-3 col-12">
+       <div class="col-md-3 ">
           <div class="card mt-5">
               <img src="images/food/snack.jpg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
               <div class="card-body text-center">
-                <h5 class="card-title">Mont lone yei baw</h5>
+                <h5 class="card-title ">Mont lone yei baw</h5>
                 <p class="card-text"></p>
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Montloneyeibaw">Go somewhere</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Montloneyeibaw">View details</a>
                 <div class="modal" id="Montloneyeibaw">
                   <div class="modal-dialog">
                     <div class="modal-content">
 
                       <!-- Modal Header -->
                       <div class="modal-header">
-                        <h4 class="modal-title">Mont lone yei baw</h4>
+                        <h4 class="modal-title ">Mont lone yei baw</h4>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                       </div>
 
@@ -400,13 +433,13 @@
             </div>
        </div>
 
-       <div class="col-lg-3 col-md-3 col-12">
+       <div class="col-md-3">
           <div class="card mt-5">
               <img src="images/food/yellow.jpeg" class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
               <div class="card-body text-center">
-                <h5 class="card-title">Yellow Sticky</h5>
+                <h5 class="card-title ">Yellow Sticky</h5>
                 <p class="card-text"></p>
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#YellowSticky">Go somewhere</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#YellowSticky">View details</a>
                 <div class="modal" id="YellowSticky">
                   <div class="modal-dialog">
                     <div class="modal-content">
@@ -434,13 +467,13 @@
             </div>
        </div>
 
-       <div class="col-lg-3 col-md-3 col-12">
+       <div class="col-md-3">
           <div class="card mt-5">
               <img src="images/food/shan1.jpg"class="card-img-top" class="myanmarfood-img" alt="myanmar Food">
               <div class="card-body text-center">
-                <h5 class="card-title">Shan Noodle</h5>
+                <h5 class="card-title ">Shan Noodle</h5>
                 <p class="card-text"></p>
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ShanNoodle">Go somewhere</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ShanNoodle">View details</a>
                 <div class="modal" id="ShanNoodle">
                   <div class="modal-dialog">
                     <div class="modal-content">
@@ -467,20 +500,50 @@
               </div>
             </div>
        </div>
-</div><!--Third row End-->
+  </div><!--Third row End-->
+  </div>
+  
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4">
+                <div>
+                    <h2 class="footer-title">Images credit and Reference</h2>
+                <ul>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Bootstrap Webpage</a></li>
+                    <li><a href="#">Google websites</a></li>
+                    <li><a href="#">Bing</a></li>
+                    <li><a href="#">W3 school </a></li>
 
-     </div>
-
-
-
-
-    
-
-      
-
-        
-        
-    
-
+                </ul>
+                </div>                    
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <div class="text-center">
+                    <h2 class="footer-title">Want To Connect Us?</h2>
+                    <p>You can click "Contact us" Under More Information to connect better with us. The complains are welcomed as it would make our websites more perfect.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                        <span class="input-group-text btn btn-primary" id="basic-addon2">send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4 ml-4">
+                <div class="text-center">
+                    <h2 class="footer-title">More Information</h2>
+                        <div class="div">
+                            <a class="#" href="contactus.html">Contact Us </a>
+                        </div>
+                        <div class="div">
+                            <a class="#" href="aboutus.html">About Us</a>
+                        </div>
+                    <img src="images/home/Jouerney_of_myanmar__1_-removebg-preview.png" style="width: 100px; height: 90px;" class="mx-auto d-block" alt="">
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

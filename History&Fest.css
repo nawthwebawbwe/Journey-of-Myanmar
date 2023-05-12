@@ -1,13 +1,47 @@
+body {
+	font-family: montserrat;
+    background-color: #F9E2AF;
+}
+.navbar-nav a {
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light, .navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(9, 9, 9);
+}
+.navbar-toggler {
+	padding: 1px 4px;
+	font-size: 20px;
+	line-height: 0.5;
+	background: #fff;
+}
 
+.navbar {
+	background-color: rgb(239, 192, 63);
+}
 .container-fluid{
     display: flex;
     flex-direction: row;
     background-color: #e0f7bf;
 }
 
-
 .title{
-    font-family: ;
+    font-family: 'calluna', cursive;
     font-weight: 100;
 }
 .card{
@@ -18,19 +52,31 @@
     width: 500px;
     height: 450px;
 }
+
 .modal-header{
     background-color: rgb(133, 216, 212);
+	font-family: 'calluna', cursive;
 }
 .modal-body{
     background-color: rgb(192, 248, 248);
+	font-family: 'Wix Madefor Display', sans-serif;
 }
 .modal-footer{
     background-color: rgb(179, 227, 243) !important;
+	font-family: 'calluna', cursive;
 }
-/* responsive layout*/
-@media only screen and (min-width: 768px) and (max-widht: 991px){
-    
+.body-text{
+	font-family: 'Wix Madefor Display', sans-serif;
 }
-@media only screen and(max-width: 767px){
+footer {
+	background: #e5e784;
+	padding: 10px 0;
+	margin-top: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
 
 }
+.footer-title{
+    font-size: 20px;
+}
+
